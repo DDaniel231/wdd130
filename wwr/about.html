@@ -13,9 +13,11 @@
 </head>
 
 <body>
-    <header>
-        <img src="images/logo.png" alt="Rafting Logo" width="120" height="80">
-        <nav>
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Rafting Logo" width="120" height="80">
+        </div>
+        <nav class="nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
@@ -24,34 +26,67 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <div class="hero">
-            <img src="images/hero_large.jpg" alt="Rafting Adventure" width="800">
-            <h1> About Us - Cruz Valley Rafting</h1>
+            <img src="images/hero_large.jpg" alt="Hero Image" width="800">
+            <h1> Cruz Valley Rafting</h1>
             <article>
-                <img src="images/hero.jpg" alt="Hello." width="300">
-                <p>Here at the Cruz Valley Rafting expenditure we offer exciting rafting adventures, expert guides, and
-                    unforgettable experiences on the water. Join us to explore nature, build teamwork, and create
-                    lasting memories!</p>
+                <img src="images/hero.jpg" alt="article image" width="300">
+                <p>Here at the Cruz Valley Rafting expenditure we offer exciting rafting adventures, expert guides,
+                    and unforgettable experiences on the water. Join us to explore nature, build teamwork, and create
+                    lasting memories! Whether you're a seasoned rafter or a first-time adventurer, our team is dedicated
+                    to making your journey safe, fun, and memorable.
+                </p>
             </article>
         </div>
-        <section>
+
+        <section class="history">
             <h2>History</h2>
-            <p>
-                The Expenditure Company was founded in 1998 with a vision to bring thrilling outdoor adventures to
-                people of all ages and backgrounds. What started as a small group of passionate rafting enthusiasts has
-                grown into a leading provider of rafting experiences in the region. Over the years, we have expanded our
-                offerings to include a variety of river expeditions, safety training, and team-building activities, all
-                while maintaining our commitment to safety, professionalism, and environmental stewardship.
-            </p>
+            <div class="history-content">
+                <p>The Expenditure Company was founded in 1998 with a vision to bring thrilling outdoor
+                    adventures to people of all ages and backgrounds. What started as a small group of
+                    passionate rafting enthusiasts has grown into a leading provider</p>
+                <div class="history-image">
+                    <img src="images/history.jpg" alt="History Image">
+                </div>
+                <p> of rafting experiences in the region. expanded our offerings to
+                    include a variety of river expeditions, safety training, and team-building activities, all
+                    while maintaining our commitment to safety, professionalism,
+                    and environmental stewardship.
+                </p>
+            </div>
         </section>
-        <section>
+
+        <section class="adventure">
             <h2> Adventure Awaits You!</h2>
+            <div class="adventure-gallery">
+                <figure>
+                    <img src="images/adventure1.jpg" alt="Los Dientes del Diablo">
+                    <figcaption>Los Dientes del Diablo</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure2.jpg" alt="Big Mallard">
+                    <figcaption>Big Mallard</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure3.jpg" alt="Half Day Adventure">
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure4.jpg" alt="Wild Rapids">
+                    <figcaption>Wild Rapids</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure5.jpg" alt="Sunset Float">
+                    <figcaption>Sunset Float</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <p> ©️2025 | David Daniel⚓ | Lagos,Nigeria</p>
-        <nav class="socialmedia">
+        <div class="socialmedia">
             <a href="https://facebook.com">
                 <img src="images/logo_fb.svg" alt="Facebook Icon" width="35">
             </a>
@@ -61,7 +96,7 @@
             <a href="https://instagram.com">
                 <img src="images/logo_ig.svg" alt="Instagram Icon" width="35">
             </a>
-        </nav>
+        </div>
     </footer>
 </body>
 
